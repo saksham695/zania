@@ -1,6 +1,6 @@
 # Zania Coding Challenge
 
-Welcome to the Zania Coding Challenge! This project is a coding challenge for [briefly describe what the challenge involves].
+WelcThis project is a coding challenge for Zania.
 
 ## Running Locally
 
