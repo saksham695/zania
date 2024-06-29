@@ -25,7 +25,6 @@ const useSyncWithBE = () => {
     const intervalId = setInterval(() => {
       const currentData = getValue(CURRENT_DATA);
       const prevData = getValue(STORED_DATA);
-      console.log(deepCompare(prevData, currentData));
       if (!deepCompare(prevData, currentData)) {
         syncWithBE(currentData);
       }

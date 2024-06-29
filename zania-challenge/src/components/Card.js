@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ImageViewer from "./ImageViewer";
 
 export const Card = ({
   item,
@@ -8,8 +9,16 @@ export const Card = ({
   handleDrop,
 }) => {
   const [isDragging, setIsDragging] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   const handleDragEnd = () => {
     setIsDragging(false);
   };
@@ -32,7 +41,15 @@ export const Card = ({
         alt={item.title}
         style={{ width: "200px", height: "auto" }}
         loading="lazy"
+        onClick={openModal}
       />
+      {isModalOpen && (
+        <ImageViewer
+          src={item.imageUrl}
+          alt={item.title}
+          onClose={closeModal}
+        />
+      )}
     </div>
   );
 };

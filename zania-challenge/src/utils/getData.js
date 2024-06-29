@@ -1,13 +1,14 @@
 export const getData = async (data) => {
   try {
     const response = await fetch("/data");
-    console.log("ResponseL: ", response);
+    const result = response.json();
     if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
+      throw new Error(result);
     }
-    console.log("Data Fetched successfully");
-    return response.json()
+    console.log("Data Fetched successfully",result);
+    return result;
   } catch (error) {
     console.error("Error Fetching data:", error);
+    return error;
   }
 };
