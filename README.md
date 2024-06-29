@@ -9,9 +9,10 @@ To run this project locally, follow these steps:
 ### Clone the repository
 
 1.[git clone <repository_url>](https://github.com/saksham695/zania.git)
+
 2.cd zania-challenge
 
-##Install dependencies
+### Install dependencies
 Make sure you have Node.js installed. If not, you can download it from the Node.js Official Website.
 
 3. npm install
