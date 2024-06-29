@@ -8,7 +8,7 @@ To run this project locally, follow these steps:
 
 ### Clone the repository
 
-1.[git clone <repository_url>](https://github.com/saksham695/zania.git)
+1.https://github.com/saksham695/zania.git
 
 2.cd zania-challenge
 
