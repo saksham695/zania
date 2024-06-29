@@ -8,21 +8,19 @@ To run this project locally, follow these steps:
 
 ### Clone the repository
 
-1.https://github.com/saksham695/zania.git
+- https://github.com/saksham695/zania.git
 
-2.cd zania-challenge
+- cd zania-challenge
 
-### Install dependencies
-Make sure you have Node.js installed. If not, you can download it from the Node.js Official Website.
+- npm install (Make sure you have Node.js installed. If not, you can download it from the Node.js Official Website.)
 
-3. npm install
-4. npm start
+- npm start
 
 
-##Installing Node.js
+## Installing Node.js
 If Node.js is not installed on your machine, follow these steps to install it:
 
-##Download Node.js
+## Download Node.js
 Download and install Node.js from the Node.js Official Website.
 
 ## Verify installation
