@@ -26,7 +26,10 @@ const App = () => {
     if (!storedData.length) {
       fetchData();
     } else {
-      setCardsResponse(storedData);
+      setCardsResponse({
+        data: storedData,
+        messageL: "SUCCESS",
+      });
     }
   }, []);
 
