@@ -1,6 +1,6 @@
 # Zania Coding Challenge
 
-WelcThis project is a coding challenge for Zania.
+This project is a coding challenge for Zania.
 
 ## Running Locally
 
